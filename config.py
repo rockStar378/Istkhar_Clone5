@@ -15,13 +15,13 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 BOT_ID = getenv("BOT_ID")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME", "ll_S_H_A_D_O_W_lll")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "vip_ankit_121")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "SumoMusicBot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "Shremusicbot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "˹ 𝐍ᴏʙɪᴛᴀ ꭙ 𝐌ᴜsɪᴄ [2] ˼")
+BOT_NAME = getenv("BOT_NAME" , "˹ sʜʀᴇᴇ ꭙ 𝐌ᴜsɪᴄ [2] ˼")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "NOBITA_MUSIC_TG_BOT")
+ASSUSERNAME = getenv("ASSUSERNAME" , "Shremusicbot")
 # ---------------------------------------------------------
 
 
@@ -60,7 +60,7 @@ API_KEY = getenv("API_KEY", 'NxGBNexGenBotsb1880e')
 SOURCE = getenv("SOURCE", "https://github.com/TEAMPURVI/SONALI_MUSIC")
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/istkhar-pvt/Istkhar_Clone",
+    "https://github.com/rockStar378/Istkhar_Clone5",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
