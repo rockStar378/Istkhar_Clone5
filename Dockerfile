@@ -1,16 +1,16 @@
-FROM nikolaik/python-nodejs:python3.10-nodejs19
+FROM python:3.12-slim
 
-RUN sed -i 's|http://deb.debian.org/debian|http://archive.debian.org/debian|g' /etc/apt/sources.list && \
-    sed -i '/security.debian.org/d' /etc/apt/sources.list && \
-    apt-get update && \
-    apt-get install -y --no-install-recommends ffmpeg aria2 && \
-    apt-get clean && \
+RUN apt-get update && \
+    apt-get install -y --no-install-recommends git ffmpeg build-essential libssl-dev && \
     rm -rf /var/lib/apt/lists/*
 
-COPY . /app/
-WORKDIR /app/
+WORKDIR /app
 
-RUN python -m pip install --no-cache-dir --upgrade pip
-RUN pip3 install --no-cache-dir --upgrade --requirement requirements.txt
+COPY requirements.txt .
 
-CMD bash start
+RUN pip install --no-cache-dir -U pip && \
+    pip install --no-cache-dir -r requirements.txt
+
+COPY . .
+
+CMD ["python3", "-m", "VIVAANXMUSIC"]
