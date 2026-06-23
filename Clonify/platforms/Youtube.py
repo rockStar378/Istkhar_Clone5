@@ -12,9 +12,12 @@ from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
-from youtubesearchpython.future import VideosSearch
+from youtubesearchpython import VideosSearch
 try:
-    from youtubesearchpython.future.extras import Recommendations
+    try:
+    from youtubesearchpython.extras import Recommendations
+except ImportError:
+    Recommendations = None
 except ImportError:
     Recommendations = None
 import base64
