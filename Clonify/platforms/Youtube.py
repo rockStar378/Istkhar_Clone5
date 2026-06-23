@@ -18,13 +18,13 @@ try:
 except ImportError:
     Recommendations = None
 import base64
-from VIVAANXMUSIC import LOGGER
-from VIVAANXMUSIC.utils.database import is_on_off
-from VIVAANXMUSIC.utils.formatters import time_to_seconds
-from VIVAANXMUSIC.utils.url_guard import is_safe_media_url
-from VIVAANXMUSIC.security import build_subprocess_env
+from Clonify import LOGGER
+from Clonify.utils.database import is_on_off
+from Clonify.utils.formatters import time_to_seconds
+from Clonify.utils.url_guard import is_safe_media_url
+from Clonify.security import build_subprocess_env
 from config import DURATION_LIMIT, YT_API_KEY, YTPROXY_URL as YTPROXY
-
+# Worker fallback API (kept configurable through env for production overrides)
 logger = LOGGER(__name__)
 
 # Worker fallback API (kept configurable through env for production overrides)
