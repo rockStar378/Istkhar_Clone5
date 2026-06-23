@@ -15,20 +15,21 @@ API_HASH = getenv("API_HASH")
 BOT_TOKEN = getenv("BOT_TOKEN")
 BOT_ID = getenv("BOT_ID")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME", "vip_ankit_121")
+OWNER_USERNAME = getenv("OWNER_USERNAME", "ll_S_H_A_D_O_W_lll")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME" , "Shremusicbot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "SumoMusicBot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME" , "˹ sʜʀᴇᴇ ꭙ 𝐌ᴜsɪᴄ [2] ˼")
+BOT_NAME = getenv("BOT_NAME" , "˹ 𝐍ᴏʙɪᴛᴀ ꭙ 𝐌ᴜsɪᴄ [2] ˼")
 # ---------------------------------------------------------
-ASSUSERNAME = getenv("ASSUSERNAME" , "Shremusicbot")
+ASSUSERNAME = getenv("ASSUSERNAME" , "NOBITA_MUSIC_TG_BOT")
 # ---------------------------------------------------------
 
 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 MONGO_DB_URI = getenv("MONGO_DB_URI")
-API_KEY = getenv("API_KEY")
+BASE_URL = getenv("API_URL", 'https://BabyAPI.Pro') 
+API_KEY = getenv('API_KEY', 'ADMINBABYX20F56755E70E0694DDCC844F5F1BB465') 
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 
@@ -51,17 +52,16 @@ OWNER_ID = int(getenv("OWNER_ID", 7634448294))
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # ----------------------------------------------------------------
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
-# ======================================================
-# 🎵 Music API
-YTPROXY_URL = getenv("YTPROXY_URL", "https://tgapi.xbitcode.com")
-YT_API_KEY = getenv("YT_API_KEY", "xbit_gzlb5IbFpZZ_nIFsU7kDuM0-IokPM6Db")
-
-# ======================================================
+# ----------------------------------------------------------------
+API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
+VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
+API_KEY = getenv("API_KEY", 'NxGBNexGenBots790d34')
+# ----------------------------------------------------------------
 # ----------------------------------------------------------------
 SOURCE = getenv("SOURCE", "https://github.com/TEAMPURVI/SONALI_MUSIC")
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/rockStar378/Istkhar_Clone5",
+    "https://github.com/istkhar-pvt/Istkhar_Clone",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -74,9 +74,9 @@ GIT_TOKEN = getenv(
 
 #------------------------------------------------------------------------
 # -------------------------------------------------------------------------
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/shree_update")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+emKt1Qup8MA3ODk1")
-CHAT = getenv("CHAT", "https://t.me/+emKt1Qup8MA3ODk1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Jully_Updates")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+xfr6-ZOTaZVmODU1")
+CHAT = getenv("CHAT", "https://t.me/+xfr6-ZOTaZVmODU1")
 # ------------------------------------------------------------------------------
 # -------------------------------------------------------------------------------
 
