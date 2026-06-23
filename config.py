@@ -51,11 +51,12 @@ OWNER_ID = int(getenv("OWNER_ID", 7634448294))
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # ----------------------------------------------------------------
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
-# ----------------------------------------------------------------
-API_URL = getenv("API_URL", 'https://api.thequickearn.xyz') #youtube song url
-VIDEO_API_URL = getenv("VIDEO_API_URL", 'https://api.video.thequickearn.xyz')
-API_KEY = getenv("API_KEY", 'NxGBNexGenBotsb1880e')
-# ----------------------------------------------------------------
+# ======================================================
+# 🎵 Music API
+YTPROXY_URL = getenv("YTPROXY_URL", "https://tgapi.xbitcode.com")
+YT_API_KEY = getenv("YT_API_KEY", "xbit_gzlb5IbFpZZ_nIFsU7kDuM0-IokPM6Db")
+
+# ======================================================
 # ----------------------------------------------------------------
 SOURCE = getenv("SOURCE", "https://github.com/TEAMPURVI/SONALI_MUSIC")
 UPSTREAM_REPO = getenv(
